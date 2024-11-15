@@ -1,11 +1,19 @@
-# 23-Java-Projects
-
 # 📫 How to reach me:
 
 **Email**: [ktobia10@wgu.edu](mailto:ktobia10@wgu.edu)  
 **LinkedIn**: [Kelvin R. Tobias](https://www.linkedin.com/in/kelvin-r-tobias-211949219/)  
 **Bluesky**: [@kelvintechnical.bsky.social](https://bsky.app/profile/kelvintechnical.bsky.social)  
 **Instagram**: [@kelvinintech](https://www.instagram.com/kelvinintech/)  
+
+---
+
+# About Me  
+
+Hi, my name is **Kelvin R. Tobias**, and I’m currently a student at **Western Governors University**, pursuing my bachelor’s degree in **Software Engineering**. My curriculum has provided me with the opportunity to learn **Python**, **JavaScript**, **Java**, and **C#**.  
+
+I build a lot of projects in my free time to reinforce what I’ve learned. As you know, it’s hard to remember the syntax for so many languages, so building projects helps solidify my knowledge and skills.  
+
+Below is a list of **Java projects** I created outside my curriculum to help me prepare for my **Java Objective Assessment**. These projects not only helped me practice Java but also gave me real-world experience with problem-solving, design, and implementation.
 
 ---
 
