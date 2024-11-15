@@ -1,11 +1,11 @@
-# 23-Java-Projects-to-Help-You-Get-Hired-as-a-Java-Developer
+# 23-Java-Projects
 
 # 📫 How to reach me:
 
-**Email**: ktobia10@wgu.edu  
-**LinkedIn**: Kelvin R. Tobias  
-**Bluesky**: @kelvintechnical.bsky.social  
-**Instagram**: @kelvinintech  
+**Email**: [ktobia10@wgu.edu](mailto:ktobia10@wgu.edu)  
+**LinkedIn**: [Kelvin R. Tobias](https://www.linkedin.com/in/kelvin-r-tobias-211949219/)  
+**Bluesky**: [@kelvintechnical.bsky.social](https://bsky.app/profile/kelvintechnical.bsky.social)  
+**Instagram**: [@kelvinintech](https://www.instagram.com/kelvinintech/)  
 
 ---
 
