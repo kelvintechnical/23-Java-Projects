@@ -202,17 +202,6 @@ Welcome to **The Java Compound**, a comprehensive repository designed to help as
 
 ---
 
-### <h3>Final Project: Online Banking System</h3>
-<strong>Technologies:</strong>
-<ul>
-    <li>Core Java.</li>
-    <li>Multi-threading.</li>
-    <li>JDBC.</li>
-    <li>Secure Transactions.</li>
-</ul>
-<strong>Goal:</strong> A full-fledged system integrating multi-threading, JDBC, and secure transactions.
-
----
 
 ## Plan Overview for E-Commerce Platform: Technology Roadmap
 
