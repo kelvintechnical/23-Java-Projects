@@ -1,4 +1,10 @@
-# 📫 How to reach me:
+# The Java Compound 🚀
+
+Welcome to **The Java Compound**, a comprehensive repository designed to help aspiring Java developers master their skills through a series of projects. Each main project comes with 9 subprojects aimed at reinforcing concepts and preparing you for the final implementation of the main project.
+
+---
+
+## 📫 How to Reach Me:
 
 **Email**: [ktobia10@wgu.edu](mailto:ktobia10@wgu.edu)  
 **LinkedIn**: [Kelvin R. Tobias](https://www.linkedin.com/in/kelvin-r-tobias-211949219/)  
@@ -7,53 +13,114 @@
 
 ---
 
-# About Me  
+## Plan Overview for Library Management System: Technology Roadmap
 
-Hi, my name is **Kelvin R. Tobias**, and I’m currently a student at **Western Governors University**, pursuing my bachelor’s degree in **Software Engineering**. My curriculum has provided me with the opportunity to learn **Python**, **JavaScript**, **Java**, and **C#**.  
-
-# The Java Compound 🚀
-
-Welcome to **The Java Compound**, a comprehensive repository designed to help aspiring Java developers master their skills through a series of projects. Each main project comes with 9 subprojects aimed at reinforcing concepts and preparing you for the final implementation of the main project.
-
+<ol>
+    <li>
+        <h3>Book Tracker</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java (basic syntax, loops, and conditionals).</li>
+            <li>Console input/output (<code>Scanner</code> class).</li>
+            <li>Array for storing book titles.</li>
+        </ul>
+        <p><strong>Goal:</strong> Learn basic Java programming, loops, and handling user input/output.</p>
+    </li>
+    <li>
+        <h3>Book Manager</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Collections Framework (<code>ArrayList</code>).</li>
+        </ul>
+        <p><strong>Goal:</strong> Introduce dynamic data structures using <code>ArrayList</code> for book management (adding, displaying, and removing).</p>
+    </li>
+    <li>
+        <h3>Member Tracker</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Collections Framework (<code>ArrayList</code>).</li>
+            <li>Basic Object-Oriented Programming (OOP).</li>
+        </ul>
+        <p><strong>Goal:</strong> Manage members using classes and objects, adding OOP principles like encapsulation.</p>
+    </li>
+    <li>
+        <h3>Enhanced Book Manager</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Collections Framework (<code>ArrayList</code>).</li>
+            <li>Intermediate OOP (defining and using multiple classes).</li>
+        </ul>
+        <p><strong>Goal:</strong> Expand OOP by associating additional properties (author, genre) with books and managing them as objects.</p>
+    </li>
+    <li>
+        <h3>Library System Base</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Collections Framework (<code>ArrayList</code>).</li>
+            <li>Intermediate OOP.</li>
+            <li>Menu-driven console programming.</li>
+        </ul>
+        <p><strong>Goal:</strong> Combine books and members into a unified system with an interactive console-based menu.</p>
+    </li>
+    <li>
+        <h3>Transaction Tracker</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Collections Framework (<code>ArrayList</code>).</li>
+            <li>Advanced OOP (associations between classes).</li>
+        </ul>
+        <p><strong>Goal:</strong> Introduce transactions by associating members with book borrowing and returning functionality, reinforcing OOP principles.</p>
+    </li>
+    <li>
+        <h3>Persistent Library System</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Collections Framework (<code>ArrayList</code>).</li>
+            <li>File Handling (Reading/Writing to <code>.txt</code> files).</li>
+        </ul>
+        <p><strong>Goal:</strong> Add persistence to the system by saving and loading books and members from files.</p>
+    </li>
+    <li>
+        <h3>Advanced Library System</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Collections Framework (<code>HashMap</code>, <code>ArrayList</code>).</li>
+        </ul>
+        <p><strong>Goal:</strong> Use advanced data structures like <code>HashMap</code> for efficient book and member management.</p>
+    </li>
+    <li>
+        <h3>Interactive Library System</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Collections Framework (<code>HashMap</code>, <code>ArrayList</code>).</li>
+            <li>Sorting and Searching Algorithms.</li>
+        </ul>
+        <p><strong>Goal:</strong> Enhance the system's usability by adding search, sort, and filter functionalities with an interactive console.</p>
+    </li>
+</ol>
 
 ---
 
-# 23 Java Projects to Help You Get Hired as a Java Developer
+### <h3>Final Capstone: Complete Library Management System</h3>
+<strong>Technologies:</strong>
+<ul>
+    <li>Core Java.</li>
+    <li>Collections Framework (<code>ArrayList</code>, <code>HashMap</code>).</li>
+    <li>Advanced OOP.</li>
+    <li>File Handling.</li>
+    <li>Sorting and Searching Algorithms.</li>
+</ul>
+<strong>Goal:</strong> Create a comprehensive library management system with all functionalities integrated, demonstrating mastery of Java programming concepts and technologies.
 
-## Plan Overview for Library Management System
-
-### Roadmap:
-1. **Book Tracker**  
-   A simple program to add and display book titles.
-
-2. **Book Manager**  
-   Add, display, and remove books using lists (introducing the Collections Framework).
-
-3. **Member Tracker**  
-   Add and manage library members with basic functionality.
-
-4. **Enhanced Book Manager**  
-   Manage books with additional details (e.g., author, genre) using objects.
-
-5. **Library System Base**  
-   Combine book and member management with a menu-driven program.
-
-6. **Transaction Tracker**  
-   Allow borrowing and returning books (start using basic OOP).
-
-7. **Persistent Library System**  
-   Introduce file handling for books and members.
-
-8. **Advanced Library System**  
-   Use Collections Framework (e.g., `HashMap`, `ArrayList`) for efficient management.
-
-9. **Interactive Library System**  
-   Add console-based interactive features (e.g., search and sorting).
-
-## Final Project: Library Management System
-
-**Description**: Build a system to manage books, members, and transactions for a library.  
-- **Skills**: OOP, File Handling, Collections Framework.
+---
 
 
 
