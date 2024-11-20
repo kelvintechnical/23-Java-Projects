@@ -158,9 +158,6 @@ Welcome to **The Java Compound**, a comprehensive repository designed to help as
 8. **Advanced Chat Features**  
    Include read receipts, typing indicators, and user statuses.
 
-9. **Interactive Chat Console**  
-   Build a user-friendly console interface for chat functionalities.
-
 ## Final Project: Chat Application
 
 **Description**: Build a simple chat app for real-time messaging.  
@@ -169,12 +166,53 @@ Welcome to **The Java Compound**, a comprehensive repository designed to help as
 
 ---
 
-### **5. Inventory Management System**
+## Plan Overview for Chat Application
+
+### Roadmap:
+1. **Basic Chat Module**  
+   Build a simple console-based messaging system.
+
+2. **User Management**  
+   Implement user creation and authentication.
+
+3. **Single-User Messaging**  
+   Allow one-on-one messaging functionality.
+
+4. **Multi-User Messaging**  
+   Add support for group chats with multiple participants.
+
+5. **Socket Integration**  
+   Use sockets for real-time communication.
+
+6. **Message Persistence**  
+   Store chat histories in a database.
+
+7. **Multi-Threading Module**  
+   Add multi-threading to handle concurrent messaging.
+
+8. **Advanced Chat Features**  
+   Include read receipts, typing indicators, and user statuses.
+
+9. **Interactive Chat Console**  
+   Build a user-friendly console interface for chat functionalities.
+---
+
+## Final Project: Chat Application
+
+**Description**: Build a simple chat app for real-time messaging.  
+- **Skills**: Sockets, Networking, Multi-threading.
+
+
+
+---
+
+
+ <!--       
+
+ ### **5. Inventory Management System**
 **Description**: Track product stock, sales, and purchases for a store.  
 - **Skills**: MySQL, JavaFX/Swing.
 
----
- <!--       
 ### **6. Blogging Platform**
 **Description**: A blogging system where users can write, edit, and comment on posts.  
 - **Skills**: Spring MVC, Thymeleaf, Hibernate.
