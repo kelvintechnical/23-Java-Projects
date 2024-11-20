@@ -11,21 +11,93 @@
 
 Hi, my name is **Kelvin R. Tobias**, and I’m currently a student at **Western Governors University**, pursuing my bachelor’s degree in **Software Engineering**. My curriculum has provided me with the opportunity to learn **Python**, **JavaScript**, **Java**, and **C#**.  
 
-I build a lot of projects in my free time to reinforce what I’ve learned. As you know, it’s hard to remember the syntax for so many languages, so building projects helps solidify my knowledge and skills.  
+# The Java Compound 🚀
 
-Below is a list of **Java projects** I created outside my curriculum to help me prepare for my **Java Objective Assessment**. These projects not only helped me practice Java but also gave me real-world experience with problem-solving, design, and implementation.
+Welcome to **The Java Compound**, a comprehensive repository designed to help aspiring Java developers master their skills through a series of projects. Each main project comes with 9 subprojects aimed at reinforcing concepts and preparing you for the final implementation of the main project.
+
 
 ---
 
 # 23 Java Projects to Help You Get Hired as a Java Developer
 
-### **1. Library Management System**
+## Plan Overview for Library Management System
+
+### Roadmap:
+1. **Book Tracker**  
+   A simple program to add and display book titles.
+
+2. **Book Manager**  
+   Add, display, and remove books using lists (introducing the Collections Framework).
+
+3. **Member Tracker**  
+   Add and manage library members with basic functionality.
+
+4. **Enhanced Book Manager**  
+   Manage books with additional details (e.g., author, genre) using objects.
+
+5. **Library System Base**  
+   Combine book and member management with a menu-driven program.
+
+6. **Transaction Tracker**  
+   Allow borrowing and returning books (start using basic OOP).
+
+7. **Persistent Library System**  
+   Introduce file handling for books and members.
+
+8. **Advanced Library System**  
+   Use Collections Framework (e.g., `HashMap`, `ArrayList`) for efficient management.
+
+9. **Interactive Library System**  
+   Add console-based interactive features (e.g., search and sorting).
+
+10. **Complete Library Management System**  
+    A full-fledged system with OOP, file handling, and comprehensive use of the Collections Framework.
+---
+
+## Final Project: Library Management System
+
 **Description**: Build a system to manage books, members, and transactions for a library.  
 - **Skills**: OOP, File Handling, Collections Framework.
 
+
+
+## Plan Overview for Online Banking System
+
+### Roadmap:
+1. **Account Tracker**  
+   A simple program to create and display user accounts.
+
+2. **Account Manager**  
+   Add, update, and remove accounts using the Collections Framework.
+
+3. **Transaction Logger**  
+   Record deposits and withdrawals with basic transaction logs.
+
+4. **Secure Login System**  
+   Implement a secure login using password hashing.
+
+5. **Multi-User Banking System**  
+   Allow multiple user accounts to interact in a single session.
+
+6. **Fund Transfer Module**  
+   Add functionality to transfer funds between accounts.
+
+7. **Persistent Banking System**  
+   Use JDBC to store and retrieve user and transaction data.
+
+8. **Advanced Security Module**  
+   Enhance security with multi-threading and robust password storage.
+
+9. **Interactive Banking System**  
+   Build an interactive console with menus for account management and transactions.
+
+10. **Complete Online Banking System**  
+    A full-fledged system integrating multi-threading, JDBC, and secure transactions.
+
 ---
 
-### **2. Online Banking System**
+## Final Project: Online Banking System
+
 **Description**: Create an application to handle user accounts, fund transfers, and mini-statements.  
 - **Skills**: Multi-threading, JDBC, Security (password hashing).
 
@@ -48,7 +120,7 @@ Below is a list of **Java projects** I created outside my curriculum to help me 
 - **Skills**: MySQL, JavaFX/Swing.
 
 ---
-
+ <!--       
 ### **6. Blogging Platform**
 **Description**: A blogging system where users can write, edit, and comment on posts.  
 - **Skills**: Spring MVC, Thymeleaf, Hibernate.
@@ -156,3 +228,4 @@ Below is a list of **Java projects** I created outside my curriculum to help me 
 - **Skills**: Multi-threading, OOP.
 
 ---
+-->
