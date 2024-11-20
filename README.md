@@ -108,57 +108,209 @@ Welcome to **The Java Compound**, a comprehensive repository designed to help as
 </ol>
 
 ---
+---
 
-### <h3>Final Capstone: Complete Library Management System</h3>
-<strong>Technologies:</strong>
-<ul>
-    <li>Core Java.</li>
-    <li>Collections Framework (<code>ArrayList</code>, <code>HashMap</code>).</li>
-    <li>Advanced OOP.</li>
-    <li>File Handling.</li>
-    <li>Sorting and Searching Algorithms.</li>
-</ul>
-<strong>Goal:</strong> Create a comprehensive library management system with all functionalities integrated, demonstrating mastery of Java programming concepts and technologies.
+## Plan Overview for Online Banking System: Technology Roadmap
+
+<ol>
+    <li>
+        <h3>Account Tracker</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Basic OOP (creating and managing objects).</li>
+            <li>Console input/output (<code>Scanner</code>).</li>
+        </ul>
+        <p><strong>Goal:</strong> Learn to create and display user accounts with basic Java programming.</p>
+    </li>
+    <li>
+        <h3>Account Manager</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Collections Framework (<code>ArrayList</code>).</li>
+        </ul>
+        <p><strong>Goal:</strong> Add, update, and remove accounts using dynamic data structures.</p>
+    </li>
+    <li>
+        <h3>Transaction Logger</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Basic OOP.</li>
+            <li>Collections Framework (<code>ArrayList</code>).</li>
+        </ul>
+        <p><strong>Goal:</strong> Record deposits and withdrawals, implementing simple transaction logging.</p>
+    </li>
+    <li>
+        <h3>Secure Login System</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Password Hashing (e.g., <code>MessageDigest</code>).</li>
+        </ul>
+        <p><strong>Goal:</strong> Implement a secure login system to authenticate users.</p>
+    </li>
+    <li>
+        <h3>Multi-User Banking System</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Intermediate OOP (handling multiple user accounts).</li>
+        </ul>
+        <p><strong>Goal:</strong> Enable multiple user accounts to interact in a session.</p>
+    </li>
+    <li>
+        <h3>Fund Transfer Module</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Intermediate OOP.</li>
+        </ul>
+        <p><strong>Goal:</strong> Add functionality for transferring funds between accounts.</p>
+    </li>
+    <li>
+        <h3>Persistent Banking System</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>JDBC.</li>
+            <li>MySQL.</li>
+        </ul>
+        <p><strong>Goal:</strong> Store and retrieve user and transaction data using a database.</p>
+    </li>
+    <li>
+        <h3>Advanced Security Module</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Multi-threading.</li>
+            <li>Password Hashing.</li>
+        </ul>
+        <p><strong>Goal:</strong> Enhance security using multi-threading and robust password storage techniques.</p>
+    </li>
+    <li>
+        <h3>Interactive Banking System</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Console-based UI.</li>
+        </ul>
+        <p><strong>Goal:</strong> Build an interactive console with menus for account management and transactions.</p>
+    </li>
+</ol>
 
 ---
 
+### <h3>Final Project: Online Banking System</h3>
+<strong>Technologies:</strong>
+<ul>
+    <li>Core Java.</li>
+    <li>Multi-threading.</li>
+    <li>JDBC.</li>
+    <li>Secure Transactions.</li>
+</ul>
+<strong>Goal:</strong> A full-fledged system integrating multi-threading, JDBC, and secure transactions.
 
+---
 
-## Plan Overview for Online Banking System
+## Plan Overview for E-Commerce Platform: Technology Roadmap
 
-### Roadmap:
-1. **Account Tracker**  
-   A simple program to create and display user accounts.
+<ol>
+    <li>
+        <h3>Product Manager</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Collections Framework (<code>ArrayList</code>).</li>
+        </ul>
+        <p><strong>Goal:</strong> Build a module to add, display, and update products.</p>
+    </li>
+    <li>
+        <h3>Order Tracker</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Collections Framework (<code>ArrayList</code>).</li>
+        </ul>
+        <p><strong>Goal:</strong> Implement a system to track orders and their statuses.</p>
+    </li>
+    <li>
+        <h3>User Registration</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Basic Validation.</li>
+        </ul>
+        <p><strong>Goal:</strong> Create a user registration system with basic validation.</p>
+    </li>
+    <li>
+        <h3>Authentication Module</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Spring Boot.</li>
+            <li>Hibernate.</li>
+        </ul>
+        <p><strong>Goal:</strong> Add user login functionality using Spring Boot and Hibernate.</p>
+    </li>
+    <li>
+        <h3>Basic E-Commerce Backend</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Spring Boot.</li>
+            <li>Hibernate.</li>
+        </ul>
+        <p><strong>Goal:</strong> Combine product, order, and user modules into a basic backend.</p>
+    </li>
+    <li>
+        <h3>REST API Integration</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Spring Boot.</li>
+            <li>REST APIs.</li>
+        </ul>
+        <p><strong>Goal:</strong> Implement REST APIs for managing products, orders, and users.</p>
+    </li>
+    <li>
+        <h3>Database Integration</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Spring Boot.</li>
+            <li>Hibernate.</li>
+        </ul>
+        <p><strong>Goal:</strong> Use Hibernate for managing database operations.</p>
+    </li>
+    <li>
+        <h3>Advanced Product Management</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Spring Boot.</li>
+            <li>Hibernate.</li>
+            <li>Collections Framework.</li>
+        </ul>
+        <p><strong>Goal:</strong> Add features like categories, discounts, and inventory tracking.</p>
+    </li>
+    <li>
+        <h3>Interactive Console</h3>
+        <p><strong>Technologies:</strong></p>
+        <ul>
+            <li>Core Java.</li>
+            <li>Console-based UI.</li>
+        </ul>
+        <p><strong>Goal:</strong> Build a console-based user interface to test backend functionality.</p>
+    </li>
+</ol>
 
-2. **Account Manager**  
-   Add, update, and remove accounts using the Collections Framework.
+---
 
-3. **Transaction Logger**  
-   Record deposits and withdrawals with basic transaction logs.
-
-4. **Secure Login System**  
-   Implement a secure login using password hashing.
-
-5. **Multi-User Banking System**  
-   Allow multiple user accounts to interact in a single session.
-
-6. **Fund Transfer Module**  
-   Add functionality to transfer funds between accounts.
-
-7. **Persistent Banking System**  
-   Use JDBC to store and retrieve user and transaction data.
-
-8. **Advanced Security Module**  
-   Enhance security with multi-threading and robust password storage.
-
-9. **Interactive Banking System**  
-   Build an interactive console with menus for account management and transactions.
-
-
-   ## Final Project: Online Banking System
-
-**Description**: A full-fledged system integrating multi-threading, JDBC, and secure transactions.
-
+### <h3>Final Project: E-Commerce Platform</h3>
+<strong>Technologies:</strong>
+<ul>
+    <li>Spring Boot.</li>
+    <li>Hibernate.</li>
+    <li>REST APIs.</li>
+</ul>
+<strong>Goal:</strong> Develop an e-commerce backend for handling products, orders, and user authentication.
 
 ## Plan Overview for E-Commerce Platform
 
