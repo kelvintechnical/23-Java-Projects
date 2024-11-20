@@ -87,8 +87,11 @@ Welcome to **The Java Compound**, a comprehensive repository designed to help as
 9. **Interactive Banking System**  
    Build an interactive console with menus for account management and transactions.
 
-10. **Complete Online Banking System**  
-    A full-fledged system integrating multi-threading, JDBC, and secure transactions.
+
+   ## Final Project: Online Banking System
+
+**Description**: A full-fledged system integrating multi-threading, JDBC, and secure transactions.
+
 
 ## Plan Overview for E-Commerce Platform
 
