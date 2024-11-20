@@ -13,6 +13,25 @@ Welcome to **The Java Compound**, a comprehensive repository designed to help as
 
 ---
 
+## About Me
+
+Hi, my name is **Kelvin R. Tobias**, and I’m currently a student at **Western Governors University**, pursuing my bachelor’s degree in **Software Engineering**. My curriculum has provided me with the opportunity to learn **Python**, **JavaScript**, **Java**, and **C#**.
+
+I build a lot of projects in my free time to reinforce what I’ve learned. As you know, it’s hard to remember the syntax for so many languages, so building projects helps solidify my knowledge and skills.
+
+---
+
+## For Beginners Like Me:
+
+If you’re new to programming, like I am, use this prompt with ChatGPT or the AI of your choice to get the most out of building these projects:
+
+> I may not be a programmer yet, but I aspire to become one. I'm 10 years old. For this project, I want someone to guide me through every line of code, explaining its purpose, significance, and the reasoning behind its specific order and syntax. Please ensure I understand each line before moving forward. Include comments for each line of code, clarifying its purpose. Additionally, explain why we're using certain data structures (like dictionaries, lists, or functions) and suggest alternative ways to achieve the same result. Also, explain the structure of each list, dictionary, function, or method. What exactly does it do, and why are we typing it this way? Remember to ask if I understand before we move forward, one line at a time. I want you to include a comment next to each line of code, explaining the function or purpose.
+
+Then, copy the title of each lab below, along with the **technologies** and **goal**, and let it help you build each project step-by-step.
+
+---
+---
+
 ## Plan Overview for Library Management System: Technology Roadmap
 
 <ol>
