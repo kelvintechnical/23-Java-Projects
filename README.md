@@ -21,16 +21,15 @@ I build a lot of projects in my free time to reinforce what I’ve learned. As y
 
 ---
 
-## For Beginners: A Step-by-Step Guide to Get Started
 # Beginner's Programming Guide
 
-Welcome! This guide is designed for beginners who want to learn programming step-by-step. Whether you're 10 years old or completely new to coding, this resource will help you set up your environment, understand every line of code, and build confidence as you create projects.
+<p>Welcome! This guide is designed for beginners who want to learn programming step-by-step. Whether you're 10 years old or completely new to coding, this resource will help you set up your environment, understand every line of code, and build confidence as you create projects.</p>
 
 ---
 
 ## How to Use This Guide
 
-If you're using ChatGPT or another AI assistant, use the following prompt to make the most of your learning experience:
+<p>If you're using ChatGPT or another AI assistant, use the following prompt to make the most of your learning experience:</p>
 
 ```plaintext
 I’m not a programmer yet, but I dream of becoming one. I’m 10 years old and eager to learn! For this project, I’d like step-by-step guidance for each line of code. Please explain the purpose, importance, and reasoning behind the specific syntax and order. Make sure I understand each line fully before moving on to the next one. Add comments to every line of code to clarify its function or purpose. 
@@ -41,6 +40,35 @@ Please check my understanding before proceeding, guiding me through one line at 
 
 
 ---
+
+## Setting Up Your Programming Environment
+
+Follow these instructions to set up your coding environment and start your projects.
+
+### 1. Download an IDE
+We recommend **[Visual Studio Code (VS Code)](https://code.visualstudio.com/)**:
+- Visit the official website and download the version for your operating system (Windows or macOS).
+- Follow the installation instructions provided on the website.
+
+### 2. Create a Folder for Your Project
+- **On Windows:**
+  1. Open "File Explorer" by clicking on the folder icon in the taskbar or pressing `Windows + E`.
+  2. Navigate to the location where you want to create the folder (e.g., Desktop or Documents).
+  3. Right-click in the blank area and select **New > Folder**. Name the folder (e.g., `MyProject`).
+
+- **On macOS:**
+  1. Open "Finder" by clicking the smiley face icon in the Dock.
+  2. Navigate to the location where you want to create the folder (e.g., Desktop or Documents).
+  3. Right-click (or Control + Click) in the blank area and select **New Folder**. Name the folder (e.g., `MyProject`).
+
+### 3. Open the Folder in VS Code
+- **Option 1:** Drag the folder into the VS Code window.
+- **Option 2:** Open VS Code and:
+  1. Click **File > Open Folder** in the top menu.
+  2. Navigate to your project folder, select it, and click **Open**.
+---
+
+
 
 ## Plan Overview for Library Management System: Technology Roadmap
 
