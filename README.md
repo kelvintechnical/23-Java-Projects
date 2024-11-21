@@ -34,12 +34,6 @@ If you're using ChatGPT or another AI assistant, use the following prompt to mak
 
 ---
 
-## How to Use This Guide
-
-If you're using ChatGPT or another AI assistant, use the following prompt to make the most of your learning experience:
-
----
-
 ### Suggested Prompt
 
 I’m not a programmer yet, but I dream of becoming one. I’m 10 years old and eager to learn! 
