@@ -32,12 +32,28 @@ Welcome! This guide is designed for beginners who want to learn programming step
 
 If you're using ChatGPT or another AI assistant, use the following prompt to make the most of your learning experience:
 
+---
 
-I’m not a programmer yet, but I dream of becoming one. I’m 10 years old and eager to learn! For this project, I’d like step-by-step guidance for each line of code. Please explain the purpose, importance, and reasoning behind the specific syntax and order. Make sure I understand each line fully before moving on to the next one. Add comments to every line of code to clarify its function or purpose.
+### Suggested Prompt
 
-Additionally, explain why we're using certain data structures (like lists, dictionaries, or functions) and suggest alternative approaches where applicable. Break down the structure and functionality of each list, dictionary, function, or method. What does it do, and why are we writing it this way?
+I’m not a programmer yet, but I dream of becoming one. I’m 10 years old and eager to learn! 
 
-Please check my understanding before proceeding, guiding me through one line at a time. Include a comment next to every line of code to reinforce its purpose and function.
+For this project, I’d like **step-by-step guidance for each line of code**. Please:
+1. Explain the **purpose, importance, and reasoning** behind the specific syntax and order.
+2. Ensure I fully understand each line before moving on to the next one.
+3. Add comments to every line of code to clarify its **function or purpose**.
+
+Additionally:
+- **Explain why** we’re using certain data structures (like lists, dictionaries, or functions) and suggest **alternative approaches** where applicable.
+- Break down the structure and functionality of each list, dictionary, function, or method:
+  - **What does it do?**
+  - **Why are we writing it this way?**
+
+Finally:
+- **Check my understanding** before proceeding, guiding me through one line at a time.
+- Include a comment next to every line of code to reinforce its **purpose and function**.
+
+---
 
 
 ---
