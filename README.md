@@ -34,6 +34,12 @@ If you're using ChatGPT or another AI assistant, use the following prompt to mak
 
 ---
 
+## How to Use This Guide
+
+If you're using ChatGPT or another AI assistant, use the following prompt to make the most of your learning experience:
+
+---
+
 ### Suggested Prompt
 
 I’m not a programmer yet, but I dream of becoming one. I’m 10 years old and eager to learn! 
@@ -54,6 +60,22 @@ Finally:
 - Include a comment next to every line of code to reinforce its **purpose and function**.
 
 ---
+
+### Copy and Paste the Project Details Into the Prompt
+
+When starting a project, copy and paste the following details (adjusted to your project) into the AI along with the prompt above:
+
+#### Example:
+**Book Tracker**  
+- **Technologies:**
+  - Core Java (basic syntax, loops, and conditionals).
+  - Console input/output (Scanner class).
+  - Array for storing book titles.
+- **Goal:** Learn basic Java programming, loops, and handling user input/output.
+
+Once you paste the project details, the AI will guide you step-by-step based on the prompt. Be prepared to learn and have fun coding!
+
+
 
 
 ---
