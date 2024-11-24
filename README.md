@@ -317,95 +317,123 @@ Use advanced data structures like HashMap for efficient book and member manageme
 Enhance the system's usability by adding search, sort, and filter functionalities with an interactive console, incorporating validation using regular expressions.
 ---
 
-## Plan Overview for Online Banking System: Technology Roadmap
+# Plan Overview for Online Banking System: Technology Roadmap
 
-<ol>
-    <li>
-        <h3>Account Tracker</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Basic OOP (creating and managing objects).</li>
-            <li>Console input/output (<code>Scanner</code>).</li>
-        </ul>
-        <p><strong>Goal:</strong> Learn to create and display user accounts with basic Java programming.</p>
-    </li>
-    <li>
-        <h3>Account Manager</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Collections Framework (<code>ArrayList</code>).</li>
-        </ul>
-        <p><strong>Goal:</strong> Add, update, and remove accounts using dynamic data structures.</p>
-    </li>
-    <li>
-        <h3>Transaction Logger</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Basic OOP.</li>
-            <li>Collections Framework (<code>ArrayList</code>).</li>
-        </ul>
-        <p><strong>Goal:</strong> Record deposits and withdrawals, implementing simple transaction logging.</p>
-    </li>
-    <li>
-        <h3>Secure Login System</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Password Hashing (e.g., <code>MessageDigest</code>).</li>
-        </ul>
-        <p><strong>Goal:</strong> Implement a secure login system to authenticate users.</p>
-    </li>
-    <li>
-        <h3>Multi-User Banking System</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Intermediate OOP (handling multiple user accounts).</li>
-        </ul>
-        <p><strong>Goal:</strong> Enable multiple user accounts to interact in a session.</p>
-    </li>
-    <li>
-        <h3>Fund Transfer Module</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Intermediate OOP.</li>
-        </ul>
-        <p><strong>Goal:</strong> Add functionality for transferring funds between accounts.</p>
-    </li>
-    <li>
-        <h3>Persistent Banking System</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>JDBC.</li>
-            <li>MySQL.</li>
-        </ul>
-        <p><strong>Goal:</strong> Store and retrieve user and transaction data using a database.</p>
-    </li>
-    <li>
-        <h3>Advanced Security Module</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Multi-threading.</li>
-            <li>Password Hashing.</li>
-        </ul>
-        <p><strong>Goal:</strong> Enhance security using multi-threading and robust password storage techniques.</p>
-    </li>
-    <li>
-        <h3>Interactive Banking System</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Console-based UI.</li>
-        </ul>
-        <p><strong>Goal:</strong> Build an interactive console with menus for account management and transactions.</p>
-    </li>
-</ol>
+## **1. Account Tracker**
+### **Technologies:**
+- Core Java.
+- Basic OOP (creating and managing objects).
+- Console input/output (Scanner).
+- Strings (for account details like name and account number).
+- Exception Handling (to manage invalid input or errors).
+
+### **Goal:**
+Learn to create and display user accounts with basic Java programming, handling account details and basic error management.
+
+---
+
+## **2. Account Manager**
+### **Technologies:**
+- Core Java.
+- Collections Framework (ArrayList).
+- Streams (to filter and process account data).
+- Lambda Expressions (for concise, functional operations).
+- Generics (for type-safe operations on collections).
+
+### **Goal:**
+Add, update, and remove accounts dynamically using modern Java features and ensure type safety.
+
+---
+
+## **3. Transaction Logger**
+### **Technologies:**
+- Core Java.
+- Basic OOP.
+- Collections Framework (ArrayList).
+- LocalDateTime (to log timestamps for transactions).
+- Serialization (to save and load transaction logs).
+
+### **Goal:**
+Record deposits and withdrawals with transaction timestamps, ensuring logs can be saved and retrieved.
+
+---
+
+## **4. Secure Login System**
+### **Technologies:**
+- Core Java.
+- Password Hashing (e.g., `MessageDigest`).
+- File Handling (to store hashed passwords).
+- Regular Expressions (to validate secure passwords).
+- Exception Handling (to handle login errors).
+
+### **Goal:**
+Implement a secure login system to authenticate users, storing hashed passwords and enforcing strong password validation.
+
+---
+
+## **5. Multi-User Banking System**
+### **Technologies:**
+- Core Java.
+- Intermediate OOP (handling multiple user accounts).
+- Collections Framework (HashMap for user management).
+- Interfaces (to define common behaviors for user accounts).
+- File Handling (to load and save multiple user profiles).
+
+### **Goal:**
+Enable multiple user accounts to interact in a session, with data stored and retrieved efficiently.
+
+---
+
+## **6. Fund Transfer Module**
+### **Technologies:**
+- Core Java.
+- Intermediate OOP.
+- Collections Framework (HashMap for account lookups).
+- Sorting and Searching Algorithms (to locate accounts efficiently).
+- Exception Handling (to manage insufficient funds or invalid accounts).
+
+### **Goal:**
+Add functionality for transferring funds between accounts, handling potential errors and optimizing performance.
+
+---
+
+## **7. Persistent Banking System**
+### **Technologies:**
+- Core Java.
+- JDBC (for database interaction).
+- MySQL (for user and transaction data storage).
+- Prepared Statements (to prevent SQL injection).
+- Connection Pooling (for optimized database performance).
+
+### **Goal:**
+Store and retrieve user and transaction data using a database, with optimized performance and secure query handling.
+
+---
+
+## **8. Advanced Security Module**
+### **Technologies:**
+- Core Java.
+- Multi-threading (to handle concurrent user sessions securely).
+- Password Hashing (e.g., BCrypt or Argon2).
+- Encryption (e.g., AES for sensitive data like account details).
+- Secure Random Number Generation (for session tokens).
+
+### **Goal:**
+Enhance security using multi-threading, robust password storage techniques, and encryption for sensitive data.
+
+---
+
+## **9. Interactive Banking System**
+### **Technologies:**
+- Core Java.
+- Console-based UI.
+- Sorting and Searching Algorithms (to enhance user navigation).
+- Regular Expressions (to validate user inputs like account numbers).
+- LocalDateTime (to display transaction timestamps).
+
+### **Goal:**
+Build an interactive console-based system with menus for account management and transactions, incorporating advanced sorting, validation, and transaction history timestamps.
+
 
 ---
 
