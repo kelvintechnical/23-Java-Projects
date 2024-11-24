@@ -312,12 +312,117 @@ Use advanced data structures like HashMap for efficient book and member manageme
 - Collections Framework (HashMap, ArrayList).
 - Sorting and Searching Algorithms.
 - Regular Expressions (for validating input data like ISBN or member IDs).
-
-### **Goal:**
+### **Goal: **
 Enhance the system's usability by adding search, sort, and filter functionalities with an interactive console, incorporating validation using regular expressions.
+
 ---
 
 # Plan Overview for Online Banking System: Technology Roadmap
+
+
+### **Technology Roadmap (First 5 smaller projects)**
+
+## **1. Basic Account Creator**
+### **Technologies:**
+- Core Java.
+- Console input/output (Scanner).
+- Strings (to handle account details like name and account number).
+
+### **Goal:**
+Learn to create a simple account using basic input/output.
+- Prompt the user for account details (name, account number).
+- Display the entered account information.
+
+---
+
+## **2. Enhanced Account Manager**
+### **Technologies:**
+- Core Java.
+- Console input/output (Scanner).
+- Arrays (for storing account information).
+- Exception Handling (to handle invalid input).
+
+### **Goal:**
+Expand on the **Basic Account Creator** to:
+- Store multiple accounts using arrays.
+- Add functionality to view all accounts.
+- Handle invalid input gracefully.
+
+---
+
+## **3. Dynamic Account Storage**
+### **Technologies:**
+- Core Java.
+- Collections Framework (ArrayList).
+- Generics (to ensure type-safe operations).
+
+### **Goal:**
+Transition from arrays to **ArrayList** for dynamic account storage.
+- Add functionality to add, update, and remove accounts.
+- Ensure type-safe operations using generics.
+
+---
+
+## **4. Transaction Tracker**
+### **Technologies:**
+- Core Java.
+- Collections Framework (ArrayList).
+- LocalDateTime (to log transaction timestamps).
+
+### **Goal:**
+Extend the **Dynamic Account Storage** to include transaction tracking.
+- Add functionality to log deposits and withdrawals for each account.
+- Track transaction timestamps using **LocalDateTime**.
+- Display a transaction history for each account.
+
+---
+
+## **5. Multi-User Login System**
+### **Technologies:**
+- Core Java.
+- Basic OOP (creating and managing objects).
+- Collections Framework (HashMap for user management).
+- Password Hashing (using `MessageDigest`).
+
+### **Goal:**
+Add user management and authentication functionality.
+- Create a `User` class with properties like username and hashed password.
+- Store user credentials in a **HashMap**.
+- Implement a secure login system using password hashing.
+
+---
+
+## **Summary of Smaller Projects**
+1. **Basic Account Creator:**  
+   - Focuses on learning the basics of Java and user input/output.  
+   - Introduces Strings for handling account details.  
+
+2. **Enhanced Account Manager:**  
+   - Introduces arrays to manage multiple accounts.  
+   - Teaches basic error handling to manage invalid input.  
+
+3. **Dynamic Account Storage:**  
+   - Transitions from arrays to **ArrayList** for scalable account management.  
+   - Reinforces the use of generics for type-safe collections.  
+
+4. **Transaction Tracker:**  
+   - Adds functionality for logging and tracking deposits/withdrawals.  
+   - Introduces timestamps using **LocalDateTime** for transaction history.  
+
+5. **Multi-User Login System:**  
+   - Introduces user management with **OOP** and secure password handling.  
+   - Uses **HashMap** to manage multiple user accounts.  
+   - Implements password hashing for authentication.  
+
+---
+
+### **How Skills Build:**
+1. **Basic Account Creator:** Introduces basic Java programming and user interaction.
+2. **Enhanced Account Manager:** Adds arrays and error handling for managing multiple accounts.
+3. **Dynamic Account Storage:** Introduces modern Java collections with dynamic data structures.
+4. **Transaction Tracker:** Adds real-world banking features like transaction history and timestamps.
+5. **Multi-User Login System:** Implements secure multi-user management and authentication, building a strong foundation for more complex systems.
+
 
 ## **1. Account Tracker**
 ### **Technologies:**
