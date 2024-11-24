@@ -160,43 +160,89 @@ We recommend **[Visual Studio Code (VS Code)](https://code.visualstudio.com/)**:
 Happy coding, and good luck with your projects! 🚀
 
 
+# Revised Plan Overview for Library Management System: Technology Roadmap
 
-# Plan Overview for Library Management System: Technology Roadmap
-
-## **Book Tracker**
+## **1. Book Tracker (Part 1)**
 ### **Technologies:**
 - Core Java (basic syntax, loops, and conditionals).
 - Console input/output (Scanner class).
-- Strings (for handling and manipulating book titles).
-- Basic Exception Handling (to manage invalid inputs gracefully).
 
 ### **Goal:**
-Learn basic Java programming, loops, handling user input/output, and error handling.
+Learn how to take user input and store a fixed list of book titles using loops and basic console input/output.
 
 ---
 
-## **Book Manager**
+## **2. Book Tracker (Part 2)**
 ### **Technologies:**
 - Core Java.
-- Collections Framework (ArrayList).
-- Streams (to filter and process book data).
-- Lambda Expressions (for concise, functional operations on book data).
+- Arrays (fixed-size storage for book titles).
 
 ### **Goal:**
-Introduce dynamic data structures using ArrayList for book management, along with modern Java functional programming features.
+Expand the functionality of the **Book Tracker** to store book titles in an array and allow users to:
+- Add a new book.
+- Display the list of books.
 
 ---
 
-## **Member Tracker**
+## **3. Book Manager (Part 1)**
 ### **Technologies:**
 - Core Java.
 - Collections Framework (ArrayList).
-- Basic Object-Oriented Programming (OOP).
-- Generics (to ensure type safety for member data structures).
 
 ### **Goal:**
-Manage members using classes, objects, and encapsulation, while leveraging Generics for type-safe operations.
+Transition from arrays to **ArrayList** for dynamic book storage, allowing the addition of unlimited book titles and dynamic resizing.
 
+---
+
+## **4. Book Manager (Part 2)**
+### **Technologies:**
+- Core Java.
+- Collections Framework (ArrayList).
+- Strings (for managing book attributes like titles and authors).
+
+### **Goal:**
+Extend the **Book Manager** to:
+- Associate a title with an author.
+- Allow searching for a book by its title.
+
+---
+
+## **5. Member Tracker (Part 1)**
+### **Technologies:**
+- Core Java.
+- Object-Oriented Programming (OOP).
+- Classes and Objects (to model library members).
+
+### **Goal:**
+Introduce basic **OOP concepts** by creating a `Member` class with properties like `name` and `ID`, and managing members using an ArrayList.
+
+---
+
+## **6. Member Tracker (Part 2)**
+### **Technologies:**
+- Core Java.
+- Object-Oriented Programming (OOP).
+- Generics (to ensure type safety for member data storage).
+
+### **Goal:**
+Expand the **Member Tracker** to:
+- Add methods for adding, removing, and listing members.
+- Utilize **Generics** to make the member storage type-safe.
+
+---
+
+# Summary of Smaller Projects
+1. **Book Tracker (Part 1):** Basics of user input and loops.
+2. **Book Tracker (Part 2):** Arrays for static book storage.
+3. **Book Manager (Part 1):** Introduce dynamic storage using ArrayList.
+4. **Book Manager (Part 2):** Add book attributes and basic search functionality.
+5. **Member Tracker (Part 1):** Introduce OOP with the `Member` class.
+6. **Member Tracker (Part 2):** Enhance with Generics for type-safe member management.
+
+### **How It Builds:**
+- **Book Tracker (Parts 1 & 2):** Start with basic concepts and static arrays.
+- **Book Manager (Parts 1 & 2):** Transition to dynamic data structures and incorporate more advanced book management.
+- **Member Tracker (Parts 1 & 2):** Introduce OOP and safe data handling for member management, setting the stage for more complex systems.
 ---
 
 ## **Enhanced Book Manager**
