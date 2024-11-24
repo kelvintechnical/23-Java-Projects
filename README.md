@@ -161,100 +161,114 @@ Happy coding, and good luck with your projects! 🚀
 
 
 
-### Plan Overview for Library Management System: Technology Roadmap
+# Plan Overview for Library Management System: Technology Roadmap
 
-<ol>
-    <li>
-        <h3>Book Tracker</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java (basic syntax, loops, and conditionals).</li>
-            <li>Console input/output (<code>Scanner</code> class).</li>
-            <li>Array for storing book titles.</li>
-        </ul>
-        <p><strong>Goal:</strong> Learn basic Java programming, loops, and handling user input/output.</p>
-    </li>
-    <li>
-        <h3>Book Manager</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Collections Framework (<code>ArrayList</code>).</li>
-        </ul>
-        <p><strong>Goal:</strong> Introduce dynamic data structures using <code>ArrayList</code> for book management (adding, displaying, and removing).</p>
-    </li>
-    <li>
-        <h3>Member Tracker</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Collections Framework (<code>ArrayList</code>).</li>
-            <li>Basic Object-Oriented Programming (OOP).</li>
-        </ul>
-        <p><strong>Goal:</strong> Manage members using classes and objects, adding OOP principles like encapsulation.</p>
-    </li>
-    <li>
-        <h3>Enhanced Book Manager</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Collections Framework (<code>ArrayList</code>).</li>
-            <li>Intermediate OOP (defining and using multiple classes).</li>
-        </ul>
-        <p><strong>Goal:</strong> Expand OOP by associating additional properties (author, genre) with books and managing them as objects.</p>
-    </li>
-    <li>
-        <h3>Library System Base</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Collections Framework (<code>ArrayList</code>).</li>
-            <li>Intermediate OOP.</li>
-            <li>Menu-driven console programming.</li>
-        </ul>
-        <p><strong>Goal:</strong> Combine books and members into a unified system with an interactive console-based menu.</p>
-    </li>
-    <li>
-        <h3>Transaction Tracker</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Collections Framework (<code>ArrayList</code>).</li>
-            <li>Advanced OOP (associations between classes).</li>
-        </ul>
-        <p><strong>Goal:</strong> Introduce transactions by associating members with book borrowing and returning functionality, reinforcing OOP principles.</p>
-    </li>
-    <li>
-        <h3>Persistent Library System</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Collections Framework (<code>ArrayList</code>).</li>
-            <li>File Handling (Reading/Writing to <code>.txt</code> files).</li>
-        </ul>
-        <p><strong>Goal:</strong> Add persistence to the system by saving and loading books and members from files.</p>
-    </li>
-    <li>
-        <h3>Advanced Library System</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Collections Framework (<code>HashMap</code>, <code>ArrayList</code>).</li>
-        </ul>
-        <p><strong>Goal:</strong> Use advanced data structures like <code>HashMap</code> for efficient book and member management.</p>
-    </li>
-    <li>
-        <h3>Interactive Library System</h3>
-        <p><strong>Technologies:</strong></p>
-        <ul>
-            <li>Core Java.</li>
-            <li>Collections Framework (<code>HashMap</code>, <code>ArrayList</code>).</li>
-            <li>Sorting and Searching Algorithms.</li>
-        </ul>
-        <p><strong>Goal:</strong> Enhance the system's usability by adding search, sort, and filter functionalities with an interactive console.</p>
-    </li>
-</ol>
+## **Book Tracker**
+### **Technologies:**
+- Core Java (basic syntax, loops, and conditionals).
+- Console input/output (Scanner class).
+- Strings (for handling and manipulating book titles).
+- Basic Exception Handling (to manage invalid inputs gracefully).
 
+### **Goal:**
+Learn basic Java programming, loops, handling user input/output, and error handling.
+
+---
+
+## **Book Manager**
+### **Technologies:**
+- Core Java.
+- Collections Framework (ArrayList).
+- Streams (to filter and process book data).
+- Lambda Expressions (for concise, functional operations on book data).
+
+### **Goal:**
+Introduce dynamic data structures using ArrayList for book management, along with modern Java functional programming features.
+
+---
+
+## **Member Tracker**
+### **Technologies:**
+- Core Java.
+- Collections Framework (ArrayList).
+- Basic Object-Oriented Programming (OOP).
+- Generics (to ensure type safety for member data structures).
+
+### **Goal:**
+Manage members using classes, objects, and encapsulation, while leveraging Generics for type-safe operations.
+
+---
+
+## **Enhanced Book Manager**
+### **Technologies:**
+- Core Java.
+- Collections Framework (ArrayList).
+- Intermediate OOP (defining and using multiple classes).
+- Annotations (for metadata on classes like `@Override` for clarity and consistency).
+
+### **Goal:**
+Expand OOP by associating additional properties (author, genre) with books and managing them as objects while learning to use annotations effectively.
+
+---
+
+## **Library System Base**
+### **Technologies:**
+- Core Java.
+- Collections Framework (ArrayList).
+- Intermediate OOP.
+- Menu-driven console programming.
+- Interfaces (to define common behaviors for books and members).
+
+### **Goal:**
+Combine books and members into a unified system with an interactive console-based menu and standardized behaviors using interfaces.
+
+---
+
+## **Transaction Tracker**
+### **Technologies:**
+- Core Java.
+- Collections Framework (ArrayList).
+- Advanced OOP (associations between classes).
+- Inner Classes (for encapsulating transactional details).
+
+### **Goal:**
+Introduce transactions by associating members with book borrowing/returning functionality, reinforcing OOP principles and encapsulation using inner classes.
+
+---
+
+## **Persistent Library System**
+### **Technologies:**
+- Core Java.
+- Collections Framework (ArrayList).
+- File Handling (Reading/Writing to `.txt` files).
+- Serialization (to save and retrieve complex objects efficiently).
+
+### **Goal:**
+Add persistence to the system by saving and loading books/members from files using serialization for a structured approach.
+
+---
+
+## **Advanced Library System**
+### **Technologies:**
+- Core Java.
+- Collections Framework (HashMap, ArrayList).
+- Concurrency (to handle simultaneous operations like member queries and book updates).
+- Comparator (for advanced sorting of books or members based on multiple attributes).
+
+### **Goal:**
+Use advanced data structures like HashMap for efficient book and member management, while introducing concurrency for multitasking.
+
+---
+
+## **Interactive Library System**
+### **Technologies:**
+- Core Java.
+- Collections Framework (HashMap, ArrayList).
+- Sorting and Searching Algorithms.
+- Regular Expressions (for validating input data like ISBN or member IDs).
+
+### **Goal:**
+Enhance the system's usability by adding search, sort, and filter functionalities with an interactive console, incorporating validation using regular expressions.
 ---
 
 ## Plan Overview for Online Banking System: Technology Roadmap
